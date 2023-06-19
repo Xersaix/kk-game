@@ -1,0 +1,251 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+body {
+
+}
+
+.orange-fond {
+    background-image: linear-gradient(to left bottom, #ff4d1a, #ff5816, #ff6111, #ff6a0c, #ff7307);
+}
+
+.orange-text {
+    color: #ff5816;
+}
+
+.round-border{
+
+    border-radius: 15px;
+}
+
+.custom-button1 {
+    background: rgb(255, 71, 28);
+    background: linear-gradient(171deg, rgba(255, 71, 28, 1) 0%, rgba(255, 121, 4, 1) 100%);
+    color:white;
+    border-radius: 10px;
+    border-style: none;
+}
+.custom-color
+{
+ background-color:    #32323295;
+}
+
+header {
+    min-height: 5vh;
+
+    width: 100vw;
+
+    position: relative;
+
+    transition: background 1s;
+}
+
+.navbar #mobile-nav{
+    position: absolute;
+    width: 110%;
+    left:0%;
+  
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.7170517865349264) 0%, rgba(0,0,0,0) 100%);
+}
+
+
+.search-box {
+    background: #F36515;
+    border-radius: 50%;
+
+    aspect-ratio: 1/1;
+}
+
+.logo img {
+    height: 70%;
+    aspect-ratio: 1/1;
+}
+
+.menu-rad {
+    border-radius: 40px;
+}
+
+
+/* Main */
+
+main {
+    min-height: 100vh;
+    background-color: #272727;
+    flex: 1;
+}
+
+.my-hero {
+
+    position: relative;
+    height: 60vh;
+    background-image: url("../../assets/img/page-img/14350.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.my-hero .hero-bottom {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: -1%;
+    background-color: #272727;
+    clip-path: polygon(0 103%, 100% 103%, 100% 98%, 0 92%);
+    border-bottom: 4px #272727;
+
+
+}
+
+.my-hero .hero-text {
+
+    left: 0%;
+    top: 0%;
+    position: absolute;
+    z-index: 12;
+    color: white;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+/* tendancy container */
+.tendancy-container {
+    min-height: 20vh;
+}
+
+.my-card-container {
+
+    min-height: 20vh;
+}
+
+.my-card figure {
+    position: relative;
+}
+
+.my-card figure video {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 15px;
+    border: none;
+    z-index: 2;
+}
+
+.my-card figure .promo {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    height: 20%;
+    width: 15%;
+    z-index: 1;
+    background-image: linear-gradient(to left bottom, #ff4d1a, #ff5816, #ff6111, #ff6a0c, #ff7307);
+    border-radius: 5px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    color: white;
+}
+
+.my-card figure:hover video {
+    display: block;
+}
+
+.my-card-container img {
+    border-radius: 15px;
+}
+
+.my-card-container .my-card {
+
+    width: 100%;
+    aspect-ratio: 1/0.7;
+
+}
+
+/* Trust */
+
+.trust {
+
+    min-height: 15vh;
+}
+
+.trust .columns {
+    min-height: 15vh;
+}
+
+/* Present */
+
+.present .present-bottom {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: -1%;
+    background-color: #272727;
+    clip-path: polygon(0 86%, 100% 97%, 100% 100%, 0% 100%);
+
+    border-bottom: 4px #272727;
+}
+
+.present .present-text {
+
+    left: 0%;
+    top: 0%;
+    position: absolute;
+    z-index: 12;
+    color: white;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.comment-card figure img
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.comment-card div{
+    background-color: #323232;
+    color:white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.newsletter{
+    background-color: #323232;
+}
+
+/* Footer */
+footer {
+    min-height: 20vh;
+
+}
+
+footer .round {
+
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    border-style: none;
+}
+
+
+footer img {
+    border-radius: 10px;
+    width: 100px;
+    aspect-ratio: 2/1;
+}
+
+.generic{
+    background-image: url("../../assets/img/page-img/generic-background.png");
+}
+
+.street-back{
+    background-image: url("../../assets/img/page-img/street-fond.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 60vh;
+}
